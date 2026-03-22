@@ -779,3 +779,19 @@ strong { color: var(--text-dark); }
 
 
 
+
+/* Meet The Machine Specifics */
+.machine-features-list h4 {
+    font-size: 1.125rem;
+}
+.machine-features-list p {
+    font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+    .machine-image {
+        order: -1;
+        margin-bottom: 1rem;
+    }
+}
+
