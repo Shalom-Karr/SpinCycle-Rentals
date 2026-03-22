@@ -667,3 +667,34 @@ strong { color: var(--text-dark); }
     transform: translate(2px, -2px);
 }
 
+
+/* About Page Specifics & Mobile Fixes */
+.about-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 3rem;
+    box-shadow: var(--shadow-sm);
+}
+.about-image {
+    height: 100%;
+    object-fit: cover;
+    min-height: 350px;
+}
+
+@media (max-width: 768px) {
+    .about-card {
+        padding: 1.5rem;
+    }
+    .about-card .how-image {
+        order: -1;
+        margin-bottom: 1.5rem;
+    }
+    .about-image {
+        min-height: 250px;
+        width: 100%;
+    }
+    .feature-card {
+        padding: 1.5rem;
+    }
+}
+
