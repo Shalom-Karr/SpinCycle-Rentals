@@ -441,3 +441,92 @@ strong { color: var(--text-dark); }
     .hero-actions { flex-direction: column; }
     .footer-links { text-align: left; justify-content: flex-start; margin-top: 2rem; }
 }
+
+
+/* Pricing Page Specifics */
+.pricing-card {
+    max-width: 450px;
+    margin: 0 auto;
+    background: var(--white);
+    border: 2px solid var(--primary-light);
+    border-radius: var(--radius);
+    padding: 3rem 2rem;
+    box-shadow: var(--shadow-lg);
+    position: relative;
+    overflow: hidden;
+}
+
+.pricing-header { text-align: center; margin-bottom: 2rem; }
+.pricing-price { font-size: 4rem; font-weight: 800; color: var(--text-dark); line-height: 1; margin: 1rem 0; }
+.pricing-price span { font-size: 1.25rem; color: var(--text-muted); font-weight: 500; }
+.pricing-features { margin-bottom: 2.5rem; }
+.pricing-features li { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; font-weight: 500; }
+.pricing-features svg { color: #10b981; flex-shrink: 0; }
+
+.popular-badge {
+    position: absolute;
+    top: 1.5rem;
+    right: -2.5rem;
+    background: var(--accent);
+    color: var(--text-dark);
+    font-weight: 700;
+    padding: 0.25rem 3rem;
+    transform: rotate(45deg);
+    font-size: 0.875rem;
+    box-shadow: var(--shadow-sm);
+}
+
+/* FAQ Page Specifics */
+.faq-item {
+    background: var(--white);
+    border: 1px solid #e2e8f0;
+    border-radius: var(--radius);
+    margin-bottom: 1rem;
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.faq-item:hover {
+    border-color: var(--primary-light);
+    box-shadow: var(--shadow-sm);
+}
+
+.faq-question {
+    width: 100%;
+    text-align: left;
+    padding: 1.5rem;
+    background: none;
+    border: none;
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: inherit;
+}
+
+.faq-question svg {
+    color: var(--primary);
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+    margin-left: 1rem;
+}
+
+.faq-answer {
+    padding: 0 1.5rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+
+.faq-item.active .faq-answer {
+    padding-bottom: 1.5rem;
+    max-height: 500px;
+}
+
+.faq-item.active .faq-question svg {
+    transform: rotate(180deg);
+}
+
