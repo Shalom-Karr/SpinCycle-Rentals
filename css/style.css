@@ -530,3 +530,48 @@ strong { color: var(--text-dark); }
     transform: rotate(180deg);
 }
 
+
+/* Footer Enhancements */
+.footer {
+    background: #0f172a;
+    color: #94a3b8;
+    padding: 5rem 0 2rem;
+    font-size: 0.95rem;
+}
+
+.footer h4 {
+    color: var(--white);
+    letter-spacing: 0.5px;
+    font-size: 1.125rem;
+}
+
+.footer-contact a {
+    transition: var(--transition);
+}
+
+.footer-contact a:hover {
+    color: var(--primary-light) !important;
+}
+
+.footer-hours ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-hours li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed rgba(255,255,255,0.1);
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-hours strong {
+    color: #cbd5e1;
+}
+
+@media (max-width: 768px) {
+    .footer .grid-3 { grid-template-columns: 1fr; gap: 3rem; }
+    .footer-contact, .footer-hours { margin-top: 1rem; }
+}
+
