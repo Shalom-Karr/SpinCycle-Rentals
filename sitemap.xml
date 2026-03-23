@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <!-- Home Page -->
+   <url>
+      <loc>https://www.spincyclerentalscleveland.com/</loc>
+      <lastmod>2026-03-22</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+   </url>
+   <!-- About Us Page -->
+   <url>
+      <loc>https://www.spincyclerentalscleveland.com/about.html</loc>
+      <lastmod>2026-03-22</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <!-- Pricing Page -->
+   <url>
+      <loc>https://www.spincyclerentalscleveland.com/pricing.html</loc>
+      <lastmod>2026-03-22</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <!-- FAQ Page -->
+   <url>
+      <loc>https://www.spincyclerentalscleveland.com/faq.html</loc>
+      <lastmod>2026-03-22</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+   </url>
+   <!-- Support & Maintenance Page -->
+   <url>
+      <loc>https://www.spincyclerentalscleveland.com/support.html</loc>
+      <lastmod>2026-03-22</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+   </url>
+   <!-- Apply Online Page -->
+   <url>
+      <loc>https://www.spincyclerentalscleveland.com/apply.html</loc>
+      <lastmod>2026-03-22</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.9</priority>
+   </url>
+</urlset>
